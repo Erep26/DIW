@@ -1,0 +1,35 @@
+.comentario{
+	border: solid black;
+	display: flex!important;
+	margin-top: 10px;
+}
+
+.usuario{
+	font-size: 2em;
+	float: left;
+}
+
+.star1, .star2, .star3, .star4, .star5{
+	display: inline-flex;
+	top: 0px;
+}
+
+.star1:before, .star2:before, .star3:before, .star4:before, .star5:before{
+	content: "\e007";
+}
+
+.star1:hover:before{
+	content: "\e006";
+}
+.star2:hover:before{
+	content: "\e006"!important;
+}
+.star3:hover:before{
+	content: "\e006"!important;
+}
+.star4:hover:before{
+	content: "\e006"!important;
+}
+.star5:hover:before{
+	content: "\e006"!important;
+}

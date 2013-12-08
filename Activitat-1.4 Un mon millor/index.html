@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Un Mon Millor</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/index.css" />
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<header class="jumbotron" style="padding-top: 10px; padding-bottom: 10px;">
+			<div class="row">
+				<img src="globe.png" class="col-md-1 hidden-xs hidden-sm">
+				<div class="col-md-8">
+					<div class="row">
+						<div class="btn-group btn-group-justified">
+						  <a class="btn btn-default" role="button">Informatica</a>
+						  <a class="btn btn-default" role="button">Arquitectura</a>
+						  <a class="btn btn-default" role="button">Comercial</a>
+						  <a class="btn btn-default" role="button">Servicios del hogar</a>
+						  <a class="btn btn-default" role="button">...</a>
+						</div>
+					</div>
+					<div class="row">
+						<form class="form-inline" role="form">
+							<div class="col-xs-3">
+								<input type="text" class="form-control" placeholder="Search">
+							</div>
+							<div class="col-xs-3">
+								<select class="form-control">
+									<option>Provincia</option>
+								</select>
+							</div>
+							<div class="col-xs-3">
+								<select class="form-control">
+									<option>Categoria</option>
+								</select>
+							</div>
+							<div class="col-xs-3">
+								<button class="btn btn-default">Buscar</button>
+							</div>
+						</form>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<form class="form-horizontal" role="form" onsubmit="return false;">
+						<div class="col-sm-10">
+							<div>
+								<span  style="">Usuario</span>
+								<input type="text" style="width: 50%;" class="form-control pull-right"/>
+							</div>
+							<div>
+								<span  style="">Contrase&#241;a</span>
+								<input type="text" style="width: 50%;" class="form-control pull-right"/>
+							</div>
+						</div>
+						<div class="col-sm-2">
+							<button type="submit" class="btn btn-default">
+								<img src="key.svg" style="height: 30px; width: 30px;">
+							</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</header>
+		<div style="width: 200px; background-color: #eee; position: fixed;">
+			<ul class="nav nav-pills nav-stacked">
+				<li class="active"><a href="#">Informacion</a></li>
+				<li><a href="#">Editar perfiles</a></li>
+				<li><a href="#">Ofertas</a></li>
+				<li><a href="#">Peticiones</a></li>
+			</ul>
+		</div>
+		<div style="margin-right: 5px; margin-left: 5px; padding-left: 20%;">
+			<button class="btn btn-primary" style="width: 100%;">A&#241;adir Oferta</button>
+
+			<div class="comentario">
+				<div class="usuario" class="col-md-5">
+					Calificacion:<br/>
+					<span style="font-size: 1.5em;" class="star1 glyphicon">
+						<span class="star2 glyphicon">
+							<span class="star3 glyphicon">
+								<span class="star4 glyphicon">
+									<span class="star5 glyphicon"></span>
+								</span>
+							</span>
+						</span>
+					</span><br/>
+					<div class="col-md-6">
+						<div class="glyphicon glyphicon-user" style="font-size: 4em;"></div>
+					</div>
+					<div class="col-md-3">
+						<span>Usuario</span><br/>
+						<span>Categoria</span><br/>
+						<span>Provincia</span><br/>
+					</div>
+				</div>
+				
+				<div class="col-md-10 texto">
+					Peticion
+					<div class="col-md-12" style="border: 1px solid black; height: 100%;">Oferta</div>
+					<div class="col-md-10" style="margin-top: 1px; margin-botom: 1px; border: 1px solid black; min-height: 150px;">Servicios intelectuales ofrecidos</div>
+					<div class="col-md-2">
+						<img src="letter.svg" style="width: 100%;">
+					</div>
+				</div>
+			</div>
+
+			<div class="comentario">
+				<div class="usuario" class="col-md-5">
+					Calificacion:<br/>
+					<span style="font-size: 1.5em;" class="star1 glyphicon">
+						<span class="star2 glyphicon">
+							<span class="star3 glyphicon">
+								<span class="star4 glyphicon">
+									<span class="star5 glyphicon"></span>
+								</span>
+							</span>
+						</span>
+					</span><br/>
+					<div class="col-md-6">
+						<div class="glyphicon glyphicon-user" style="font-size: 4em;"></div>
+					</div>
+					<div class="col-md-3">
+						<span>Usuario</span><br/>
+						<span>Categoria</span><br/>
+						<span>Provincia</span><br/>
+					</div>
+				</div>
+				
+				<div class="col-md-10 texto">
+					Peticion
+					<div class="col-md-12" style="border: 1px solid black; height: 100%;">Oferta</div>
+					<div class="col-md-10" style="margin-top: 1px; margin-botom: 1px; border: 1px solid black; min-height: 150px;">Servicios intelectuales ofrecidos</div>
+					<div class="col-md-2">
+						<img src="letter.svg" style="width: 100%;">
+					</div>
+				</div>
+			</div>
+
+
+		</div>
+	</body>
+</html>
